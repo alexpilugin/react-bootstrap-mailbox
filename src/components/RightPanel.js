@@ -8,7 +8,7 @@ import { Grid, Row, Col, Panel, Well, Media,
   class RightPanel extends Component {
     render() {
         return (
-            <Col xs={9} lg={10} bsStyle="primary" className="RightPanel"> 
+            <Col xs={12} sm={9} lg={10} bsStyle="primary" className="RightPanel"> 
                 <ControlsLine />
                 <MsgSingleLine />
                 <MsgSingleLine />

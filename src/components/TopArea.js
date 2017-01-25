@@ -22,8 +22,8 @@ class TopArea extends Component {
                             className="outlinedWhite"
                             bsSize="small"
                             id="bg-nested-dropdown" >
-                                <MenuItem eventKey="1">Dropdown link</MenuItem>
-                                <MenuItem eventKey="2">Dropdown link</MenuItem>
+                                <MenuItem eventKey="1">Account</MenuItem>
+                                <MenuItem eventKey="2">Sign out</MenuItem>
                         </DropdownButton> 
                         </div>
                         </div>

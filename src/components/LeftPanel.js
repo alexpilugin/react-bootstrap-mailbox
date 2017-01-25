@@ -8,7 +8,7 @@ import { Grid, Row, Col, Panel, Well, Media,
   class LeftPanel extends Component {
     render() {
         return (
-            <Col xs={3} lg={2} className="LeftPanel dotted-spaced">
+            <Col xs={12} sm={3} lg={2} className="LeftPanel dotted-spaced">
                 <ComposeMessage />
                 <MassageFolders />
             </Col>

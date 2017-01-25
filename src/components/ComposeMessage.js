@@ -9,7 +9,7 @@ import { Grid, Row, Col, Panel, Well, Media,
             <div className="ComposeMessage">
                 <Button bsStyle="danger"  block>
                     <Glyphicon glyph="pencil"/>
-                    <span className="hidden-xs pad-left-5">compose</span>
+                    <span className="pad-left-5">compose</span>
                 </Button>
             </div>
         )

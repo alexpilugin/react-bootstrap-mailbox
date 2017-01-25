@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Tab, Nav, NavItem, Glyphicon, Badge} from 'react-bootstrap';
+import {Tab, Nav, NavItem, MenuItem, Glyphicon, Badge} from 'react-bootstrap';
 
   class MassageFolders extends Component {
     render() {
@@ -9,23 +9,27 @@ import {Tab, Nav, NavItem, Glyphicon, Badge} from 'react-bootstrap';
                     <Nav bsStyle="pills" stacked>
                     <NavItem eventKey="inbox">
                         <Glyphicon glyph="inbox" className="pad-right-5"/>
-                        <span className="hidden-xs">Inbox</span><Badge className="pull-right">42</Badge>
+                        <span>Inbox</span><Badge className="pull-right">42</Badge>
                     </NavItem>
-                    <NavItem eventKey="sent">
+
+                    <NavItem eventKey="sent" className="hline">
                         <Glyphicon glyph="envelope" className="pad-right-5"/>
-                        <span className="hidden-xs">Sent</span><Badge className="pull-right">42</Badge>
+                        <span>Sent</span><Badge className="pull-right">42</Badge>
                     </NavItem>
-                    <NavItem eventKey="important">
+
+                    <NavItem eventKey="important" className="hline">
                         <Glyphicon glyph="bookmark" className="pad-right-5"/>
-                        <span className="hidden-xs">Important</span><Badge className="pull-right">0</Badge>
+                        <span>Important</span><Badge className="pull-right">0</Badge>
                     </NavItem>
-                    <NavItem eventKey="draft">
+
+                    <NavItem eventKey="draft" className="hline">
                         <Glyphicon glyph="edit" className="pad-right-5"/>
-                        <span className="hidden-xs">Drafts</span><Badge className="pull-right">0</Badge>
+                        <span>Drafts</span><Badge className="pull-right">0</Badge>
                     </NavItem>
-                    <NavItem eventKey="trash">
+
+                    <NavItem eventKey="trash" className="hline">
                         <Glyphicon glyph="trash" className="pad-right-5"/>
-                        <span className="hidden-xs">Trash</span><Badge className="pull-right">0</Badge>
+                        <span>Trash</span><Badge className="pull-right">0</Badge>
                     </NavItem>
                     </Nav>
                 </Tab.Container>
