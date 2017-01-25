@@ -48,8 +48,8 @@ body {
   margin-right: 10px;
 }
 .hline {
-  border-top: 1px solid #e8eff2;
-  margin: 10px 0px;
+  border-bottom: 1px solid #e8eff2;
+  /* margin: 5px 0px; */
 }
 .outline {
 	background: none;
@@ -127,6 +127,14 @@ ul.no-pad.pager {
 .MassageFolders {
   width: 100%;
 }
+.MsgSingleLine {
+  cursor: pointer;
+}
+.MsgSingleLine :hover {
+  background-color: #f1f3f8;   
+}
+/* 
 .MsgSingleLine:not(:first-of-type) {
   border-top: 1px solid #e8eff2;
 }
+*/
