@@ -2,3 +2,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Also this project uses [React-Bootstrap](https://react-bootstrap.github.io/getting-started.html)
 
 It was installed by ***$ npm install react-bootstrap --save*** command
+![Screenshot](./src/React-Bootstrap-mailbox-responsive.jpg)
