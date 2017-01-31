@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Panel, Well, Media, 
-  Glyphicon, Button, DropdownButton, MenuItem, ListGroup, ListGroupItem, 
-  Jumbotron, Tooltip, Popover, Badge, form, FormGroup, InputGroup, FormControl} from 'react-bootstrap';
+import { Glyphicon, Button} from 'react-bootstrap';
 
   class ComposeMessage extends Component {
     render() {

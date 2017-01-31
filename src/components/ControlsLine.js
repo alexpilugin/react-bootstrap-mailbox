@@ -51,7 +51,7 @@ class ControlsLine extends Component {
                         </ButtonToolbar>
                     </div>
                 </Col>
-                <Col xs={5} xsOffset={1} className="pull-right"> 
+                <Col xs={6} sm={5} smOffset={1} className="pull-right"> 
                     <div className="ControlsLine">
                         <Pager className="no-pad">
                             <span className="inline hidden-xs"> 25 from 100 </span> 

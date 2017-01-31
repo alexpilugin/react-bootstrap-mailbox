@@ -30,10 +30,10 @@ class TopArea extends Component {
                     </Col>
                     <Col xs={12} sm={9} lg={10} bsStyle="primary" className="clr-e8eff2 flex-col-vcenter"> 
                         <Row className="show-grid row-no-padding">
-                        <Col xs={4} className="pull-left">
+                        <Col sm={4} className="pull-left hidden-xs">
                             <div className=""> <h2>Inbox</h2> </div>
                         </Col>
-                        <Col xs={8} sm={6} className="pull-right">
+                        <Col xs={12} sm={6} className="pull-right">
                             <div className="search-form-div">
                             <form>
                                 <FormGroup>
