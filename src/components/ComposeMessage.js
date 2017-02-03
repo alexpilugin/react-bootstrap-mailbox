@@ -1,3 +1,5 @@
+// eslint-disable-next-line
+/* eslint-disable */
 import React, { Component } from 'react';
 import { Glyphicon, Button} from 'react-bootstrap';
 

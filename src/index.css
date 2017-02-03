@@ -3,7 +3,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-
+*:focus {
+  outline: none !important;
+  outline:0 !important;
+}
 
 .flex-row {
   display: flex;
@@ -116,7 +119,7 @@ body {
   color: #31b0d5;
 }
 .ComposeMessage {
-  padding: 10px;
+  margin-bottom: 10px;
 }
 .ControlsLine {
   margin-top: 10px;

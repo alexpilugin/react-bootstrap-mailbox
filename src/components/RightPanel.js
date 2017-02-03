@@ -1,9 +1,9 @@
+// eslint-disable-next-line
+/* eslint-disable */
 import React, { Component } from 'react';
 import ControlsLine from './ControlsLine';
 import MsgSingleLine from './MsgSingleLine';
-import { Grid, Row, Col, Panel, Well, Media, 
-  Glyphicon, Button, DropdownButton, MenuItem, ListGroup, ListGroupItem, 
-  Jumbotron, Tooltip, Popover, Badge, form, FormGroup, InputGroup, FormControl} from 'react-bootstrap';
+import { Col} from 'react-bootstrap';
 
   class RightPanel extends Component {
     render() {
